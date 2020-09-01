@@ -1,0 +1,490 @@
+{
+  "siteTitle": "Integral - Financial Research Software",
+  "companyTitle": "CYRRUS ADVISORY, a.s.",
+  "schoolTitle": "Mendelova univerzita v Brně",
+  "loading": "Načítání",
+  "noData": "Žádné data na zobrazení.",
+  "chartUpdatedPrefix": "Aktualizováno o",
+  "chartNeverUpdated": "Ještě neaktualizováno",
+  "ytd": "YTD",
+  "cagr": "CAGR",
+  "sharpeRatio": "Sharpe Ratio",
+  "sr": "SR",
+  "maxDD": "Max DrawDown",
+  "equityOuts": "Vlastní Kap.",
+  "stdDev": "Std. Dev.",
+  "recoveryDDtime": "Recovery DD Time",  
+  "score": "Skóre",  
+  "card": "karta",
+  "chart": "graf",
+  "table": "tabulka",
+  "number": "Číslo",
+  "serverIncontinency": "Inkonzistence servru",
+  "titles": {
+    "sort": "Klikni pro třídení.",
+    "filter": "Dvoj-klik pro filtrování.",
+    "filterCancel": "Stlačte ESC pro zrušení filtrování.",
+    "edit": "Dvoj-klik pro úpravu.",
+    "editCancel": "Stlačte ESC pro zrušení upravování.",
+    "showPattern": "Dvoj-klik pro zobrazení patternu v grafu.",
+    "showPatternCancel": "Dvoj-klik pro zrušení zobrazování patternu v grafu.",
+    "save2dataWarehouse": "Uložit do Skladu strategií"
+  },
+  "errors": {
+    "dataError": "Omlouváme se, nejsme schopní získat data. Zkusíme to později...",
+    "unknownError": "Neznámá chyba.",
+    "wipedOut": "Váš zůstatek byl vynulován!"
+  },
+  "paging": {
+    "previous": "Předchozí",
+    "next": "Další"
+  },
+  "settings": {
+    "metrics": "StockPicking Lab Metriky",
+    "general": "Obecní",
+    "language": "Jazyk",
+    "clearAll": "Smazat všechna nastavení"
+  },
+  "landing": {
+    "home": "Domů",
+    "about": "O Aplikaci"
+  },
+  "login": {
+    "signIn": "Přihlásit se",
+    "disconnect": "Odpojit se",
+    "with": "pomocí",
+    "signInCredentials": "Přihlásit se přímo",
+    "email": "Email",
+    "emailExample": "joe@example.com",
+    "username": "Jméno",
+    "password": "Heslo",
+    "passwordAgain": "Heslo znovu",
+    "resetPass": "Resetovat Heslo",
+    "remember": "Zapamatovat",
+    "lookingTo": "Chcete si",
+    "createAccount": "vytvořit konto ?",
+    "register": "Registrovat se",
+    "registrationSent": "Zkontrolujte email pro verifikaci registrace.",
+    "alreadyAccount": "Již máte konto?",
+    "registerSuccess": "Ověření registrace proběhlo úspěšně.",
+    "registerFail": "Ověření registrace zlyhalo.",
+    "tryingAgain": "Opakuji požadavek..",
+    "login": "Přihlašte se.",
+    "IB": {
+      "title": "Interactive Brokers",
+      "credentials": "údajů",
+      "login": "přihlášení",
+      "status": "stav",
+      "logs": "logy",
+      "signIn": "Přihlašte se Interactive Brokers údaji",
+      "paper": "Paper Trading mode",
+      "confirmLive": "Jste si jisti, že chcete použít Live Trading mode?"
+    }
+  },
+  "dashboard": { 
+    "title": "Nástěnka",
+    "performanceStatistics": "Výkon - statistiky",
+    "liquidate": "Likvidace",
+    "confirmLiquidate": "Jste si jistí, že chcete livkidaci?",
+    "tradeLog": {
+      "title": "Obchodní log",
+      "hide": "Skrýt",
+      "show": "Ukázat"
+    },
+    "lastTradesTable": {
+      "title": "Poslední obchody",
+      "columns": [
+        "Datum a Čas",
+        "Typ Obchodu",
+        "Výsledek (%)",
+        "Výsledek (USD)"
+      ]
+    },
+    "pendingOrdersTable": {
+      "title": "Čekající pokyny",
+      "columns": [
+        "Datum",
+        "Typ Obchodu",
+        "Cíl (USD)",
+        "Stop Loss (USD)"
+      ]
+    },
+    "performanceStatisticsTable": {
+      "columns": [
+        " ",
+        "3 Měsíce",
+        "12 Měsíců",
+        "Od Vstupu"
+      ],
+      "lines": [
+        "YTD",
+        "CAGR",
+        "Sharpe Ratio",
+        "Max DrawDown",
+        "Vlastní Kapitál"
+      ]
+    }
+  },
+  "research": { 
+    "title": "Výzkum",
+    "period": "Perioda",
+    "from": "Od",
+    "to": "Do",
+    "pickDate": "Vyberte datum",
+    "save": "Uložit",
+    "saveName": "Uložit jméno",
+    "saved": "Uložené",
+    "stop": "Zastavit",
+    "portfolioManager": {
+      "designedPortfolio": "Navržené Portfolio",
+      "livePortfolio": "Živé Portfolio",
+      "optimalPortfolio": "Optimální Portfolio",
+      "live": "živé",
+      "store": "uložit",
+      "statsTable": {
+        "title": "Statistiky",
+        "columns": [
+          "Výkon - statistiky",
+          "Risk - statistiky"
+        ],
+        "rows": {
+          "beta": "Beta",
+          "alfa": "Alfa"
+        }
+      }
+    },
+    "stockPickingLab": {
+      "stock": "Data akce",
+      "xLabel": "Datum",
+      "yLabel": "Cena",
+      "watchlistAdd": "Přidat na seznam sledovaných aktiv",
+      "watchlistRemove": "Odebrat ze seznamu sledovaných aktiv",
+      "filters": {
+        "change": "Změnit na",
+        "equal": "ROVNÁ se",
+        "not": "NE",
+        "clearSelection": "Zrušit výběr",
+        "symbolName": "Symbol/Jméno:",
+        "exchange": "Burza",
+        "index": "Index",
+        "dividend": "Dividenda",
+        "sector": "Sektor",
+        "marketPrice": "Trhová cena mezi",
+        "and": "a",
+        "text": "Text",
+        "watchlistActivate": "Aktivovat seznam sledovaných aktiv",
+        "watchlistDeactivate": "Deaktivovat seznam sledovaných aktiv",
+        "exchanges": [
+          "NYQ",
+          "NMS",
+          "ASE"
+        ],
+        "sectors": {
+          "Consumer Cyclical": "Consumer Cyclical",
+          "Industrials": "Průmysl",
+          "Basic Materials": "Základní materiály",
+          "Healthcare": "Zdravotní péče",
+          "Consumer Defensive": "Consumer Defensive",
+          "Financial Services": "Finanční služby",
+          "Technology": "Technologie",
+          "Energy": "Energie",
+          "Real Estate": "Nemovitosti",
+          "Utilities": "Utilities"
+        },
+        "all": "Všechno"
+      }
+    },
+    "patternLab": { 
+      "assets": "Aktiva",
+      "patterns": "Patterny",
+      "type2search": "Hledejte psaním",
+      "checkAll": "Zaškrtnout vše",
+      "uncheckAll": "Odškrtnout vše",
+      "entry": "Vstupní",
+      "exit": "Výstupní",
+      "rules": "pravidla",
+      "timeframes": [
+        "Denní",
+        "Týdenní",
+        "Měsíční"
+      ],
+      "units": [
+        "USD",
+        "%"
+      ],
+      "chartTypes": [
+        "Čárový",
+        "OHLC sloupcový",
+        "Svíčkový"
+      ], 
+      "chart": {
+        "title": "Graf",        
+        "addChart": "Přidat graf",               
+        "patternsHistory": {
+          "title": "Historie patternů",
+          "columns": [
+            "Datum",
+            "Pattern",
+            "Směr"
+          ]
+        }
+      },
+      "patternStatistics": {
+        "title": "Pattern statistiky",
+        "statistics": {
+          "title": "Statistiky",
+          "items": [
+            "Celkově patternů:",
+            "Bullish:",
+            "Bearish:"
+          ]
+        },
+        "patternsByStock": "Patterny dle akcie",
+        "stocksByPattern": "Akcie dle patternů",
+        "patternsTable": {
+          "title": "Patterny",
+          "columns": [
+            "Akce", 
+            "Pattern",
+            "# výskytů", 
+            "Délka patternu", 
+            "Směr", 
+            "Průměrná frekvence", 
+            "1 denní up_down", 
+            "5 denní up_down", 
+            "10 denní up_down"
+          ]
+        }
+      },
+      "backtestPatterns": {
+        "title": "Backtest - patterny",
+        "addPattern": "Přidat patterny",
+        "initialCapital": "Počáteční kapitál",
+        "numberUSD": "Číslo v USD",
+        "export": "Export",
+        "entryRules": {
+          "direction": "Směr",
+          "directions": {
+            "BUY": "NÁKUP",
+            "SELL": "PRODEJ",
+            "BOTH": "OBĚ"
+          },
+          "trendFilter": "Trend filter",
+          "trendFilterTip": "Pokud je funkce zapnuta, tak jsou Bullish patterny testovány pouze když je aktuální cena nad klouzavým průměrem a Bearish patterny testovány pouze pokud je aktuální cena pod klouzavým průměrem.",         
+          "ma_filter_period": "Klouzavý průměr",
+          "movingAverageTip": "Perioda klouzavého průměru",
+          "fixed_amount": "Risk",
+          "numberDays": "Číslo v dnech"
+        },
+        "exitRules": {
+          "analyze": "Analýza",
+          "analyzeTip": "Počet nasledujících barů po vyskytnutí vzoru/ů, ktere se mají analyzovat.",
+          "numberBars": "Číslo v barech",
+          "profit_take": "ProfitTarget",
+          "stoploss": "StopLoss"
+        },
+        "runStrategy": "Spustit strategie",
+        "performanceResults": {
+          "title": "Výkonostní výsledky",
+          "problemsPrefix": "Výsledky patternů",
+          "problemsSuffix": "mají nějaké problémy:",
+          "patterns": {
+            "title": "Patterny",
+            "bar": "bar",
+            "barsTo4": "bary",
+            "bars": "barů",
+            "day": "den",
+            "daysTo4": "dny",
+            "days": "dnů",
+            "columns": [
+              "Název",
+              "Od",
+              "Do", 
+              "Čas. rámec", 
+              "Akce", 
+              "Pattern", 
+              "Počáteční kapitál", 
+              "Analýza", 
+              "Profit Target", 
+              "Stop Loss",              
+              "Trend filter (Klouzavý průměr)", 
+              "Směr"
+            ]
+          },
+          "trades": {
+            "title": "Obchody",
+            "columns": [
+              "#", 
+              "Akce",
+              "Pattern", 
+              "Směr", 
+              "Vstupní cena", 
+              "Výstupní cena", 
+              "Vstupní čas", 
+              "Výstupní čas", 
+              "Množství", 
+              "Profit"
+            ]
+          },
+          "performanceMetrics": {
+            "title": "Výkonostní metriky",
+            "columns": [
+              "Akce", 
+              "Pattern", 
+              "# obchodů", 
+              "Počáteční kapitál", 
+              "Koncový kapitál", 
+              "Kumulativní finální zisk", 
+              "CAGR", 
+              "Sharpe ratio", 
+              "PT", 
+              "SL", 
+              "Průměrný obchod", 
+              "Max drawdown strategie"
+            ]
+          },
+          "chart": {
+            "title": "Graf",
+            "cumulatedProfit": "Kumulovaný profit",
+            "xLabel": "Time",
+            "drawdown": "Drawdown",
+            "tradeEntry": "Vstup do obchodu",
+            "tradeStopLoss": "Stop Loss obchodu",
+            "tradeExit": "Výstup z obchodu"
+          }
+        }
+      },
+      "alerts": {
+        "title": "Upozornění",
+        "addAlert": "Přidat upozornění",
+        "columns": [
+          "Pattern",
+          "Akce"
+        ],
+        "checkboxColumns": [
+          "Email notifikace",
+          "Aplikační notifikace"
+        ]
+      }
+    }, 
+    "optimization": {
+      "parameterSweep" : {
+        "title": "Hledání parametrů",
+        "selectBacktest": "Vyberte backtest",
+        "profitTarget": "Profit Target",
+        "stopLoss": "Stop Loss",
+        "parameters": "Parametry",
+        "period": "Perioda",
+        "range": "rozsah",
+        "step": "Krok",
+        "run": "Spustit",
+        "estimatedTime": "Odhadovaný čas běhu je",
+        "confirmEstimated": "větší než 5 hodin. Jste si jistí?",
+        "results": {
+          "title": "Výsledky",
+          "columns": [
+            "Pnl",
+            "longs",
+            "longs_win",
+            "avg_long",
+            "shorts",
+            "shorts_win",
+            "avg_short",
+            "max_dd",
+            "dd_len",
+            "annual_return",
+            "ProfitTarget",
+            "StopLoss",
+            "RiskPerTrade"
+          ],
+          "chart": "Interaktivní 3D graf"
+        }
+      },
+      "genetics" : {
+        "title": "Genetika"
+      }
+    }, 
+    "fsengineering": {
+      "selectBacktest":"Vyberte backtest", 
+      "models": "Available Models",
+      "basic": "Basic",
+      "hmm": "Hidden Markov Models",
+      "hmm2": "Hidden Markov Models Extended",
+      "svjd": "SVJD Stationary",
+      "svjd2": "SVJD Non-Stationary",
+      "cot": "Commitment of Traders",
+      "modelResults": "Vysledky modelu",
+      "equityCurve": "Ekvitni krivka",
+      "drawDown": "Maximalni pokles",
+      "run": "Spustit",
+      "stop":"Zastavit",
+      "estimatedTime":"Odhadovaný čas běhu je",
+      "confirmEstimated":"větší než 5 hodin. Jste si jistí?"
+    },
+    "wareHouse": {
+      "premiumStrategies": "Prémiové Strategie",
+      "myStrategies": "Moje Strategie",
+      "select": "vybrat",
+      "remove": "odstranit"
+    }
+  },
+  "terms": {
+    "perfStats": {
+      "ytd": "Výnos k dnešnímu dni. Uvádí, o kolik procent vzrostl nebo poklesl náš majetek ode dne spuštění strategie.",
+      "maxDD": "Maximální pokles. Uvádí maximální pokles vůči historicky nejvyššímu stavu majetku.",
+      "max drawdown": "Maximální pokles. Uvádí maximální pokles vůči historicky nejvyššímu stavu majetku.",
+      "sharpe": "Poměr zisku vůči risku. Uvádí poměr YTD/směrodatná odchylka jednotlivých výnosů. Čím vyšší hodnota, tím lépe, tedy dosahujeme více jednotek zisku na jednotku risku.",
+      "sharpe ratio": "Poměr zisku vůči risku. Uvádí poměr YTD/směrodatná odchylka jednotlivých výnosů. Čím vyšší hodnota, tím lépe, tedy dosahujeme více jednotek zisku na jednotku risku.",
+      "sr": "Poměr zisku vůči risku. Uvádí poměr YTD/směrodatná odchylka jednotlivých výnosů. Čím vyšší hodnota, tím lépe, tedy dosahujeme více jednotek zisku na jednotku risku.",
+      "cagr": "Přepočtený roční výnos. Vyjadřuje v exponentu inverzní hodnotu počtu obchodních dní po které strategie běží/ Počet obchodních dní v jednom roce.",
+      "nrOfTrades": "Počet provedených obchodů, které algoritmus od spuštění provedl."
+    },
+    "symbols": {
+      "mgc": "Symbol pro zlato/ E-micro futures na derivátové burze NYMEX.",
+      "qm": "Symbol pro ropu/ E-mini futures na derivátové burze NYMEX."
+    },
+    "tradeType": {
+      "buy": "Na uvedené ceně budeme realizovat nákup.",
+      "sell": "Na uvedené ceně budeme realizovat prodej.",
+      "sld": "Na uvedené ceně došlo k prodeji.",
+      "bot": "Na uvedené ceně došlo k nákupu."
+    }
+  },
+  "notifications": {
+    "beConnectionLost": "SYSTÉMOVÉ SELHÁNÍ - Ztraceno spojení s BackEnd-em ",
+    "brokerConnectionLost": "SYSTÉMOVÉ SELHÁNÍ - Ztraceno spojení s brokerem ",
+    "open": "Otevřeno",
+    "win": "Výhra",
+    "lose": "Ztráta",
+    "breakEven": "Bez ztráty",
+    "settingsCleared": "Všechna nastavení smazána úspěšně.",
+    "fromChanged" : "Datum 'Od' byl upraven podle rozsahu aktiva",
+    "toChanged" : "Datum 'Do' byl upraven podle rozsahu aktiva",
+    "addNoAsset": "Musíte označit alespoň jedno aktivum",
+    "addNoPattern": "Musíte zaškrtnout alespoň jeden pattern",
+    "noInitialCapital": "Počáteční kapitál musí být nastavený",
+    "loading": "Strategie již běží",
+    "couldntRunBacktests": "Strategie se nezdařilo rozběhat"
+  },
+  "userMenu": {
+    "actions": "Uživatelské akce",
+    "notifications": "Nové notifikace",
+    "profile": "Profil",
+    "ibConnection": "IB Spojení",
+    "settings": "Nastavení",
+    "logout": "Odhlásit"
+  },
+  "sidebar": {
+    "shortTitle": "FRS",
+    "details": "Detaily",    
+    "portfolioManager": "Portfolio Manažer",
+    "stockPickingLab": "StockPicking Lab",
+    "patternLab": "Pattern Lab",
+    "optimization": "Optimization",
+    "relativeValuesLab": "RelativeValues Lab",
+    "fsengineering": "Features Engineering",
+    "wareHouse": "Sklad Strategií",
+    "notifications": "Notifikace",
+    "userProfile": "Profil"
+  }
+}

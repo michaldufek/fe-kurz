@@ -1,0 +1,510 @@
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: $bdc;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: $bdc;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: $bdc;
+}
+
+.dropdown .dropdown-toggle{
+  width: 100%;
+  max-width: 200px;
+}
+.dropdown-menu ul{
+  padding-left: 0;
+}
+
+/* Animations */
+.nav-pills .nav-link,
+.navbar,
+.nav-tabs .nav-link,
+.sidebar .nav a,
+.sidebar .nav a i,
+.sidebar .nav p,
+.navbar-collapse .navbar-nav .nav-link,
+.animation-transition-general,
+.tag,
+.tag [data-role="remove"],
+.animation-transition-general{
+    @include transitions($general-transition-time, $transition-ease);
+}
+
+//transition for dropdown caret
+.bootstrap-switch-label:before,
+.caret{
+    @include transitions($fast-transition-time, $transition-ease);
+}
+
+.dropdown-toggle[aria-expanded="true"]:after,
+a[data-toggle="collapse"][aria-expanded="true"] .caret,
+.card-collapse .card a[data-toggle="collapse"][aria-expanded="true"] i,
+.card-collapse .card a[data-toggle="collapse"].expanded i{
+    @include rotate-180();
+}
+
+.caret{
+  width: 0;
+  height: 0;
+  vertical-align: middle;
+  border-top: 4px dashed;
+  border-right: 4px solid transparent;
+  border-left: 4px solid transparent;
+  margin-top: -5px;
+  position: absolute;
+  top: 30px;
+  margin-left: 5px;
+}
+
+.pull-left{
+  float: left;
+}
+.pull-right{
+  float: right;
+}
+
+
+// card user profile page
+
+.card {
+  form {
+    label + .form-control {
+      margin-bottom: 20px;
+    }
+  }
+}
+
+.card {
+  .map-title {
+    color: $white;
+  }
+
+  &.card-chart {
+    .gmnoprint,
+    .gm-style-cc {
+      display: none !important;
+    }
+  }
+}
+
+// documentation
+
+.bd-docs {
+
+  h1,h2,h3,h4,h5,h6,p,ul li,ol li{
+    color:#2c2c2c;
+  }
+
+
+  .bd-content>table>thead>tr>th {
+    color: $black;
+
+  }
+
+  .blockquote, .blockquote p, .card p{
+    color: rgba($white,0.8);
+  }
+  .bd-example {
+    background: linear-gradient(#1e1e2f,#1e1e24);
+
+  }
+
+  .navbar {
+    border-top: none;
+
+    .navbar-nav .nav-link {
+      color: rgba(255,255,255,.8) !important;
+    }
+  }
+
+  .bd-example {
+
+    .btn{
+      margin: 4px 0;
+    }
+    .btn .badge {
+      display: inline-block;
+    }
+
+    .tim-icons{
+      color: $white;
+    }
+
+    .popover .popover-header {
+    color: hsla(0,0%,71%,.6);
+  }
+
+
+    .popover-body {
+      p {
+        color: $gray-900;
+      }
+    }
+
+    &.tooltip-demo p{
+      color: rgba($white,.8);
+    }
+  }
+
+  .card.card-body,
+  .card .card-body {
+    color: hsla(0,0%,100%,.8);
+  }
+
+  label,
+  .form-check {
+    color: hsla(0,0%,100%,.8);
+  }
+
+  .form-check + .btn {
+    margin-top: 20px;
+  }
+
+  .bd-example,
+  table {
+    thead th {
+      color: hsla(0,0%,100%,.8);
+    }
+
+    h1, h2, h3, h4, h5, h6,
+    .h1, .h2, .h3, .h4, .h5, .h6 {
+      color: hsla(0,0%,100%,.8);
+    }
+
+    .datepicker{
+      thead th, table thead th,.tim-icons{
+        color: $primary;
+      }
+
+    }
+
+    .picker-switch .tim-icons{
+      color: $primary;
+    }
+  }
+
+  .footer {
+    .container-fluid > nav {
+      display: inline-block;
+    }
+  }
+}
+.modal.show .modal-dialog {
+  -webkit-transform: translate(0,30%);
+  transform: translate(0,30%);
+}
+
+code {
+  color: $pink;
+}
+
+@media screen and (max-width: 991px){
+    .profile-photo .profile-photo-small{
+        margin-left: -2px;
+    }
+
+    .button-dropdown{
+        display: none;
+    }
+
+    #searchModal .modal-dialog{
+      margin: 20px;
+    }
+
+    #minimizeSidebar{
+        display: none;
+    }
+
+}
+
+
+@media screen and (max-width: 768px){
+
+    .landing-page .section-story-overview .image-container:nth-child(2){
+        margin-left: 0;
+        margin-bottom: 30px;
+    }
+
+}
+
+@media screen and (max-width: 576px){
+  .tablesorter{
+    th{
+      display: none;
+    }
+    tr:nth-child(even){
+      background: rgba(0,0,0,.2);
+    }
+    td{
+      display: flex;
+      justify-content: space-between;
+      p{
+        text-align: right;
+      }
+      &:before{
+        text-align: left;
+        display: inline-block;
+        content: attr(data-name);
+      }
+    }
+  }
+    .page-header{
+        .container h6.category-absolute{
+            width: 90%;
+        }
+    }
+
+    .form-horizontal .col-form-label, .form-horizontal .label-on-right{
+      text-align: inherit;
+      padding-top: 0;
+      code{
+        padding: 0 10px;
+      }
+    }
+
+}
+
+.flex-stretch{
+    display: flex;
+    align-items: stretch;
+    .card{
+      // height: 100%;
+    }
+    @media (min-width: 992px){
+      .card-body{
+        display: flex;
+        align-items: center;
+      }
+    }
+}
+.flex-middle{
+  display: flex;
+  align-items: center;
+  h4{
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+}
+.formblock{
+  display: flex;
+  align-items: center;
+  padding: 5px 0;
+  &--centered{
+   text-align: center; 
+  }
+  img{
+    margin-top: 0;
+  }
+  .form-group{
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+  .dropdown {
+    margin-right: 1em;
+  }
+  p{
+    float: left;
+    margin-right: 1em;
+    margin-bottom: 0;
+  }
+  .form-check{
+    margin-right: 1em;
+    margin-top: 0;
+  }
+   @media screen and (max-width: 768px){
+    clear: both;
+  }
+ @media screen and (max-width: 500px){
+    display: block;
+  }
+}
+.controls{
+  margin-bottom: 1em;
+}
+.formblocks{
+  clear: both;
+  display: flex; 
+  @media screen and (max-width: 1200px){
+    display: block; 
+  }
+}
+//datepicker
+.vdp-datepicker__clear-button{
+  width: 2.65em;
+  text-align: center;
+  display: inline-block;
+  border: 1px solid $bdc;
+
+  box-shadow: 0 1px 20px 0px #385a5a;
+  color: white;
+  i span{
+    font-style: normal;
+  }
+  &:hover{
+    color:white;
+    background: $bdc;
+  }  
+}
+.content{
+  width: 100%;
+}
+ .form-control {
+    //box-shadow: gray 0px 0px 7px;
+    color:white;
+  }
+
+  .dropdown input,
+  .vdp-datepicker span,
+  .vdp-datepicker input {
+    /*box-shadow: gray 0px 0px 7px;*/
+    // border: 1px solid #999; 
+    padding-top: .5em;
+    padding-bottom: .5em;
+    text-align: center;
+    background-color: transparent;
+    border-radius: 0.4285rem !important;
+    color: gray; 
+  }
+  .dropdown input,
+  .vdp-datepicker input {
+    width: calc(100% - 3.25em);
+    color:white;
+    margin-right: .3em;
+    
+    border: 1px solid $bdc;
+  }
+  .fullpicker input{
+    width: 100%;
+  }
+
+  .vdp-datepicker span {
+    // box-shadow: none;    
+    color: inherit; 
+  }
+
+
+  /* .dropdown:focus { // to-do: this focus should be on all inputs (ie.dtpicker, dropdowns)
+    border-color: #1d8cf8 !important
+  } */
+
+  .dropdown .dropdown-content,
+  .vdp-datepicker__calendar {
+    background-color: #1b6a6a !important;
+    border-radius: 0.4285rem;
+    opacity: 0.95;
+    min-width: 100% !important;
+    border: none !important;
+    box-shadow: gray 0px 0px 7px !important;
+  }
+
+  .disabled {
+    color: gray !important
+  }
+.vdp-datepicker{
+  .vdp-datepicker__calendar .cell.selected,
+  .vdp-datepicker__calendar header .prev:not(.disabled):hover, .vdp-datepicker__calendar header .next:not(.disabled):hover, .vdp-datepicker__calendar header .up:not(.disabled):hover{
+    background-color: $bdc;
+  }
+  .vdp-datepicker__calendar .cell:not(.blank):not(.disabled).day:hover, .vdp-datepicker__calendar .cell:not(.blank):not(.disabled).month:hover, .vdp-datepicker__calendar .cell:not(.blank):not(.disabled).year:hover{
+    border-color: $bdc;
+  }
+}
+.card-body{
+  .dropdown input.dropdown-input {
+    background: transparent ;
+    color: white;
+    border: none ;
+    min-width: 100% ;
+    padding-bottom: .5em;
+    padding-top: .5em;
+    border: 1px solid $bdc;
+    font-size: 1em;
+    &:hover,&:focus{
+      background: transparent;
+      color:white;
+    }
+  }
+  .dropdown .dropdown-content div.dropdown-item{
+    color:$bdc;
+      font-size: 1em;
+    &:hover,&:focus{
+      background: $bdc;
+      color:white;
+    }
+  }
+}
+  .day__month_btn.up {
+    color: white;
+
+  }
+  .vdp-datepicker__calendar .cell.selected,
+  .vdp-datepicker__calendar .cell:not(.blank):not(.disabled).day:hover,
+.vdp-datepicker__calendar .cell:not(.blank):not(.disabled).month:hover,
+.vdp-datepicker__calendar .cell:not(.blank):not(.disabled).year:hover {
+    color:white;
+}
+
+.form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: $bdc;
+  opacity: 1; /* Firefox */
+}
+
+.form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: $bdc;
+}
+
+.form-control::-ms-input-placeholder { /* Microsoft Edge */
+  color: $bdc;
+}
+  .selectedAsset {
+    background-color: #1d8cf8;
+    border-radius: 0.4285rem
+  }
+@media screen and (min-width: 992px){
+    .col-lg-3{
+      flex: 0 0 22%;
+    }
+    .xl-flex{
+      display: flex;
+      width: 100%;
+      display: flex;
+      
+    }
+      .flex-stretch 
+          .killflex
+          .card-body{
+        display: block;
+      }
+    .killflex{
+      .col-xl-2,
+      .col-xl-3,
+      .col-xl-4,
+      .col-xl-5,
+      .col-xl-6,
+      .col-xl-7,
+      .col-xl-8,
+      .col-xl-9,
+      .col-xl-10{
+        display: block;
+        flex:0 0 100%;
+        max-width: 100%;
+        width: 100%;
+      }
+      .xl-flex{
+        margin-left: 0;
+        margin-right: 0;
+        display: block;
+        .col-12{
+          padding-left: 0;
+          padding-right: 0;
+        }
+      }
+    }
+}
+.btn{
+  max-width: 100% !important;
+}

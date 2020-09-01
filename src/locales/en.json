@@ -1,0 +1,490 @@
+{
+  "siteTitle": "Integral - Financial Research Software",
+  "companyTitle": "CYRRUS ADVISORY, a.s.",
+  "schoolTitle": "Mendel University in Brno",
+  "loading": "Loading of",
+  "noData": "No data to show.",
+  "chartUpdatedPrefix": "Updated at",
+  "chartNeverUpdated": "Never updated",
+  "ytd": "YTD",
+  "cagr": "CAGR",
+  "sharpeRatio": "Sharpe Ratio",
+  "sr": "SR",
+  "maxDD": "Max DrawDown",
+  "equityOuts": "Equity Outs.",
+  "stdDev": "Std. Dev.",
+  "recoveryDDtime": "Recovery DD Time",  
+  "score": "Score",  
+  "card": "card",
+  "chart": "chart",
+  "table": "table",
+  "number": "Number",
+  "serverIncontinency": "Server inconsistency",
+  "titles": {
+    "sort": "Click for sort.",
+    "filter": "Double-click for filter.",
+    "filterCancel": "Press ESC to cancel filtering.",
+    "edit": "Double-click for edit.",
+    "editCancel": "Press ESC to cancel editing.",
+    "showPattern": "Double-click to show pattern in chart.",
+    "showPatternCancel": "Double-click to cancel showing pattern in chart.",
+    "save2dataWarehouse": "Save to Ware House"
+  },
+  "errors": {
+    "dataError": "We are sorry, at this moment we are unable to get the data. We'll try again later...",
+    "unknownError": "Unknown error.",
+    "wipedOut": "Your account has been wiped out!"
+  },
+  "paging": {
+    "previous": "Previous",
+    "next": "Next"
+  },
+  "settings": {
+    "metrics": "StockPicking Lab Metrics",
+    "general": "General",
+    "language": "Language",
+    "clearAll": "Clear all settings"
+  },
+  "landing": {
+    "home": "Home",
+    "about": "About"
+  },
+  "login": {
+    "signIn": "Sign in",
+    "disconnect": "Disconnect",
+    "with": "with",
+    "signInCredentials": "Sign in with credentials",
+    "email": "Email",
+    "emailExample": "joe@example.com",
+    "username": "Username",
+    "password": "Password",
+    "passwordAgain": "Password again",
+    "resetPass": "Reset Password",
+    "remember": "Remember me",
+    "lookingTo": "Looking to",
+    "createAccount": "create an account ?",
+    "register": "Register",
+    "registrationSent": "Check your email for registration verification.",
+    "alreadyAccount": "Already have an account?",
+    "registerSuccess": "Registration verification successful.",
+    "registerFail": "Registration verification failed.",
+    "tryingAgain": "Trying request again..",
+    "login": "Log in.",
+    "IB": {
+      "title": "Interactive Brokers",
+      "credentials": "credentials",
+      "login": "login",
+      "status": "status",
+      "logs": "logs",
+      "paper": "Paper Trading mode",
+      "confirmLive": "Are you sure you want to use Live Trading mode?"
+    }
+  },  
+  "dashboard": { 
+    "title": "Dashboard",
+    "performanceStatistics": "Performance statistics",
+    "liquidate": "Liquidate",
+    "confirmLiquidate": "Are you sure you want to liquidate?",
+    "tradeLog": {
+      "title": "Trade Log",
+      "hide": "Hide",
+      "show": "Show"
+    },
+    "lastTradesTable": {
+      "title": "Last trades",
+      "columns": [
+        "Date and Time",
+        "Trade Type",
+        "Result (%)",
+        "Result (USD)"
+      ]
+    },
+    "pendingOrdersTable": {
+      "title": "Pending orders",
+      "columns": [
+        "Date",
+        "Trade Type",
+        "Target (USD)",
+        "Stop Loss (USD)"
+      ]
+    },
+    "performanceStatisticsTable": {
+      "columns": [
+        " ",
+        "3 Months",
+        "12 Months",
+        "Since Inception"
+      ],
+      "lines": [
+        "YTD",
+        "CAGR",
+        "Sharpe Ratio",
+        "Max DrawDown",
+        "Equity Outstanding"
+      ]
+    }
+  },
+  "research": { 
+    "title": "Research",
+    "period": "Period",
+    "from": "From",
+    "to": "To",
+    "pickDate": "Pick a date",
+    "save": "Save",
+    "saveName": "Save name",
+    "saved": "Saved",
+    "stop": "Stop",
+    "portfolioManager": {
+      "designedPortfolio": "Designed Portfolio",
+      "livePortfolio": "Live Portfolio",
+      "optimalPortfolio": "Optimal Portfolio",
+      "live": "live",
+      "store": "store",
+      "statsTable": {
+        "title": "Statistics",
+        "columns": [
+          "Performance statistics",
+          "Risk statistics"
+        ],
+        "rows": {
+          "beta": "Beta",
+          "alfa": "Alfa"
+        }
+      }
+    },
+    "stockPickingLab": {
+      "stock": "Stock data",
+      "xLabel": "Date",
+      "yLabel": "Price",
+      "watchlistAdd": "Add to stocks watchlist",
+      "watchlistRemove": "Remove from stocks watchlist",
+      "filters": {
+        "change": "Change to",
+        "equal": "EQUAL to",
+        "not": "NOT",
+        "clearSelection": "Clear selection",
+        "symbolName": "Symbol/Name:",
+        "exchange": "Exchange",
+        "index": "Index",
+        "dividend": "Dividend",
+        "sector": "Sector",
+        "marketPrice": "Market price between",
+        "and": "and",
+        "text": "Text",
+        "watchlistActivate": "Activate stocks watchlist",
+        "watchlistDeactivate": "Deactivate stocks watchlist",
+        "exchanges": [
+          "NYQ",
+          "NMS",
+          "ASE"
+        ],
+        "sectors": {
+          "Consumer Cyclical": "Consumer Cyclical",
+          "Industrials": "Industrials",
+          "Basic Materials": "Basic Materials",
+          "Healthcare": "Healthcare",
+          "Consumer Defensive": "Consumer Defensive",
+          "Financial Services": "Financial Services",
+          "Technology": "Technology",
+          "Energy": "Energy",
+          "Real Estate": "Real Estate",
+          "Utilities": "Utilities"
+        },
+        "all": "All"
+      }
+    },
+    "patternLab": { 
+      "assets": "Assets",
+      "patterns": "Patterns",      
+      "type2search": "Type to search",
+      "checkAll": "Check all",
+      "uncheckAll": "Uncheck all",
+      "entry": "Entry",
+      "exit": "Exit",
+      "rules": "rules",        
+      "timeframes": [
+        "Daily",
+        "Weekly",
+        "Monthly"
+      ],
+      "units": [
+        "USD",
+        "%"
+      ],
+      "chartTypes": [
+        "Line",
+        "OHLC bar",
+        "Candlestick"          
+      ],
+      "chart": {
+        "title": "Chart",        
+        "addChart": "Add chart",                
+        "patternsHistory": {
+          "title": "Patterns history",
+          "columns": [
+            "Date",
+            "Pattern",
+            "Direction"
+          ]
+        }
+      },
+      "patternStatistics": {
+        "title": "Pattern statistics",
+        "statistics": {
+          "title": "Statistics",
+          "items": [
+            "Total patterns",
+            "Bullish",
+            "Bearish"
+          ]
+        },
+        "patternsByStock": "Patterns by stock chart",
+        "stocksByPattern": "Stocks by pattern chart",
+        "patternsTable": {
+          "title": "Patterns",
+          "columns": [
+            "Asset", 
+            "Pattern",
+            "# of occurence", 
+            "Pattern length", 
+            "Direction", 
+            "Average frequency", 
+            "1 day up_down", 
+            "5 days up_down", 
+            "10 days up_down"
+          ]
+        }
+      },
+      "backtestPatterns": {
+        "title": "Backtest - patterns",
+        "addPattern": "Add patterns",
+        "initialCapital": "Initial capital",
+        "numberUSD": "Number in USD",
+        "export": "Export",
+        "patternResult": "Pattern result",
+        "entryRules": {
+          "direction": "Direction",
+          "directions": {
+            "BUY": "BUY",
+            "SELL": "SELL",
+            "BOTH": "BOTH"
+          },
+          "trendFilter": "Trend filter",
+          "trendFilterTip": "If on Bullish patterns will be tested only if current price is above moving average and Bearish patterns only if current price is below moving average.",
+          "ma_filter_period": "Moving average",
+          "movingAverageTip": "Moving average period",
+          "fixed_amount": "Risk",
+          "numberDays": "Number in days"
+        },
+        "exitRules": {
+          "analyze": "Analyze",
+          "analyzeTip": "Number of next bars after pattern/s occurrence that should be analyzed.",
+          "numberBars": "Nr. in bars",          
+          "profit_take": "ProfitTarget",
+          "stoploss": "StopLoss"
+        },
+        "runStrategy": "Run strategies",
+        "performanceResults": {
+          "title": "Performance results",
+          "problemsPrefix": "Pattern results of",
+          "problemsSuffix": "have some problems:",
+          "patterns": {
+            "title": "Patterns",
+            "bar": "bar",
+            "barsTo4": "bars",
+            "bars": "bars",
+            "day": "day",
+            "daysTo4": "days",
+            "days": "days",
+            "columns": [
+              "Name",
+              "From",
+              "To", 
+              "Time frame", 
+              "Asset", 
+              "Pattern", 
+              "Initial capital", 
+              "Analyze", 
+              "Profit Target", 
+              "Stop Loss", 
+              "Trend filter (Moving average)",
+              "Direction"
+            ]
+          },
+          "trades": {
+            "title": "Trades",
+            "columns": [
+              "#", 
+              "Asset",
+              "Pattern", 
+              "Direction", 
+              "Entry price", 
+              "Exit price", 
+              "Entry time", 
+              "Exit time", 
+              "Amount", 
+              "Profit"
+            ]
+          },
+          "performanceMetrics": {
+            "title": "Performance metrics",
+            "columns": [
+              "Asset", 
+              "Pattern", 
+              "# of trades", 
+              "Initial capital", 
+              "End capital", 
+              "Cummulative PnL final", 
+              "CAGR", 
+              "Sharpe ratio", 
+              "PT", 
+              "SL", 
+              "Average trade", 
+              "Max drawdown strategy"
+            ]
+          },
+          "chart": {
+            "title": "Chart",
+            "xLabel": "Time",
+            "cumulatedProfit": "Cumulated profit",            
+            "drawdown": "Drawdown",
+            "tradeEntry": "Trade entry",
+            "tradeStopLoss": "Trade Stop Loss",
+            "tradeExit": "Trade exit"
+          }
+        }
+      },
+      "alerts": {
+        "title": "Alerts",
+        "addAlert": "Add alerts",
+        "columns": [
+          "Pattern",
+          "Asset"
+        ],
+        "checkboxColumns": [
+          "Email notification",
+          "App notification"
+        ]
+      }
+    },  
+    "optimization": {
+      "parameterSweep" : {
+        "title": "Parameter Sweep",
+        "parameters": "Parameters",
+        "period": "Period",
+        "range": "range",
+        "selectBacktest": "Select backtest",
+        "profitTarget": "Profit Target",
+        "stopLoss": "Stop Loss",
+        "step": "Step",
+        "run": "Run",
+        "estimatedTime": "Estimated running time is",
+        "confirmEstimated": "longer than 5 hours. Are you sure?",
+        "results": {
+          "title": "Results",
+          "columns": [
+            "Pnl",
+            "longs",
+            "longs_win",
+            "avg_long",
+            "shorts",
+            "shorts_win",
+            "avg_short",
+            "max_dd",
+            "dd_len",
+            "annual_return",
+            "ProfitTarget",
+            "StopLoss",
+            "RiskPerTrade"
+          ],
+          "chart": "Interactive 3D chart"
+        }
+      },
+      "genetics" : {
+        "title": "Genetics"
+      }
+    },
+    "fsengineering": {
+      "selectBacktest":"Select Backtest", 
+      "models": "Available Models",
+      "basic": "Basic",
+      "hmm": "Hidden Markov Models",
+      "hmm2": "Hidden Markov Models Extended",
+      "svjd": "SVJD Stationary",
+      "svjd2": "SVJD Non-Stationary",
+      "cot": "Commitment of Traders",
+      "modelResults": "Modeling Results",
+      "equityCurve": "Equity Curve",
+      "drawDown": "Drawdown",
+      "run": "Run",
+      "stop":"Stop",
+      "estimatedTime":"Estimated running time is",
+      "confirmEstimated":"longer than 5 hours. Are you sure?"
+    },
+    "wareHouse": {
+      "premiumStrategies": "Premium Strategies",
+      "myStrategies": "My Strategies",
+      "select": "select",
+      "remove": "remove"
+    }    
+  },  
+  "terms": {
+    "perfStats": {
+      "ytd": "Yield to date. It shows how many percent our assets have increased or decreased since the launch of the strategy.",
+      "maxDD": "Maximum drop. It states the maximum decrease in relation to the historically highest state of assets.",
+      "max drawdown": "Maximum drop. It states the maximum decrease in relation to the historically highest state of assets.",
+      "sharpe": "Profit to risk ratio. It shows the ratio YTD / standard deviation of individual returns. The higher the value, the better, therefore, we achieve more profit units per unit of risk.",
+      "sharpe ratio": "Profit to risk ratio. It shows the ratio YTD / standard deviation of individual returns. The higher the value, the better, therefore, we achieve more profit units per unit of risk.",
+      "sr": "Profit to risk ratio. It shows the ratio YTD / standard deviation of individual returns. The higher the value, the better, therefore, we achieve more profit units per unit of risk.",
+      "cagr": "Recalculated annual yield. It expresses the inverse value of the number of trading days during which the strategy runs / Number of trading days in one year.",
+      "nrOfTrades": "The number of trades executed by the algorithm since execution."
+    },
+    "symbols": {
+      "mgc": "Symbol for gold / E-micro futures on the NYMEX derivative exchange.",
+      "qm": "Symbol for oil / E-mini futures on NYMEX derivative exchange."
+    },
+    "tradeTypes": {
+      "buy": "At this price we will make a purchase.",
+      "sell": "At this price we will make a sale.",
+      "sld": "The price it was sold of.",
+      "bot": "The price it was purchased for."
+    }
+  },
+  "notifications": {
+    "beConnectionLost": "SYSTEM FAILURE - BackEnd connection lost ",
+    "brokerConnectionLost": "SYSTEM FAILURE - Broker connection lost ",
+    "open": "Open",
+    "win": "Win",
+    "lose": "Lose",
+    "breakEven": "Break even",
+    "settingsCleared": "All settings cleared successfully.",
+    "fromChanged" : "The 'From' date was adjusted to asset range",
+    "toChanged" : "The 'To' date was adjusted to asset range",
+    "addNoAsset": "You must select at least one asset",
+    "addNoPattern": "You must check at least one pattern",
+    "noInitialCapital": "Initial capital must be set",
+    "loading": "Strategies already running",
+    "couldntRunBacktests": "Couldn't run backtests"
+  },
+  "userMenu": {
+    "actions": "User actions",
+    "notifications": "New notifications",
+    "profile": "Profile",
+    "ibConnection": "IB Connection",
+    "settings": "Settings",
+    "logout": "Log Out"
+  },
+  "sidebar": {
+    "shortTitle": "FRS",
+    "details": "Details",    
+    "portfolioManager": "Portfolio Manager",
+    "stockPickingLab": "StockPicking Lab",
+    "patternLab": "Pattern Lab",
+    "optimization": "Optimization",
+    "relativeValuesLab": "RelativeValues Lab",
+    "fsengineering": "Features Engineering",
+    "wareHouse": "Ware House",
+    "notifications": "Notifications",
+    "userProfile": "User Profile"
+  }
+}
